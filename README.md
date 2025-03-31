@@ -13,7 +13,7 @@ Etap drugi w pliku DockerLab5:
 - ma być uwzględnione sprawdzanie poprawności działania (HEALTHCHECK)
 
 W sprawozdaniu znajduję się:
-- Treść utworzonego pliku Dockerfile  
+- Treść utworzonego pliku DockerLab5  
 - Użyte polecenie do budowy obrazu i wynik jego działania
 - Polecenie uruchamiające serwer
 - Polecenie potwierdzające działanie kontenera i poprawne funkcjonowanie opracowanej aplikacji.
