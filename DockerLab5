@@ -1,3 +1,4 @@
+#Tworzenie obrazu scratch jako obraz bazowy
 FROM scratch AS build-stage
 
 ADD alpine-minirootfs-3.21.3-aarch64.tar /
@@ -9,7 +10,7 @@ RUN apk add --no-cache nodejs npm
 WORKDIR /app
 
 # Kopiujemy kod aplikacji
-COPY package.json package-lock.json /app/
+COPY package.json package.json /app/
 RUN npm install
 
 COPY server.js /app/server.js
